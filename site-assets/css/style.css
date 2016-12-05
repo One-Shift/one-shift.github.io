@@ -96,3 +96,12 @@ body {
 	background-color: #FFF;
 	font-size: 16px;
 }
+
+a {
+	color: #37c871;
+}
+
+a:hover, a:focus {
+	color: #00ccff;
+	text-decoration: none;
+}
