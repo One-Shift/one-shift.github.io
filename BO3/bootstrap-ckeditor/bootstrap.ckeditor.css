@@ -7,21 +7,15 @@
 	margin-left: auto;
 }
 
-.cke_show_blocks .container {
-	background-image: url(site-assets/images/block-container.png);
-}
-
 .container-fluid {
 	padding-right: 7px !important;
 	padding-left: 7px !important;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url(site-assets/images/block-container-fluid.png);
 }
 
 .row {
 	padding-bottom: 7px;
-	background-image: url(site-assets/images/block-row.png);
 }
 
 .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
@@ -241,4 +235,53 @@
 }
 .col-md-offset-0 {
 	margin-left: 0;
+}
+
+/* IMAGES */
+.cke_show_blocks .container {
+	background-image: url(site-assets/images/block-container.png) !important;
+}
+.cke_show_blocks .container-fluid {
+	background-image: url(site-assets/images/block-container-fluid.png);
+}
+
+.cke_show_blocks .row {
+	background-image: url(site-assets/images/block-row.png);
+}
+
+.cke_show_blocks .col-md-12 {
+	background-image: url(site-assets/images/block-col-12.png);
+}
+.cke_show_blocks .col-md-11 {
+	background-image: url(site-assets/images/block-col-11.png);
+}
+.cke_show_blocks .col-md-10 {
+	background-image: url(site-assets/images/block-col-10.png);
+}
+.cke_show_blocks .col-md-9 {
+	background-image: url(site-assets/images/block-col-9.png);
+}
+.cke_show_blocks .col-md-8 {
+	background-image: url(site-assets/images/block-col-8.png);
+}
+.cke_show_blocks .col-md-7 {
+	background-image: url(site-assets/images/block-col-7.png);
+}
+.cke_show_blocks .col-md-6 {
+	background-image: url(site-assets/images/block-col-6.png);
+}
+.cke_show_blocks .col-md-5 {
+	background-image: url(site-assets/images/block-col-5.png);
+}
+.cke_show_blocks .col-md-4 {
+	background-image: url(site-assets/images/block-col-4.png);
+}
+.cke_show_blocks .col-md-3 {
+	background-image: url(site-assets/images/block-col-3.png);
+}
+.cke_show_blocks .col-md-2 {
+	background-image: url(site-assets/images/block-col-2.png);
+}
+.cke_show_blocks .col-md-1 {
+	background-image: url(site-assets/images/block-col-1.png);
 }
