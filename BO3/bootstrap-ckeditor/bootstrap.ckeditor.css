@@ -5,6 +5,9 @@
 	padding-left: 7px !important;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.cke_show_blocks .container {
 	background-image: url(site-assets/images/block-container.png);
 }
 
