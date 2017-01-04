@@ -237,6 +237,26 @@
 	margin-left: 0;
 }
 
+/* SPACERS AND BLOCKS */
+.sm-spacer150 {height: 150px;}
+.sm-spacer120 {height: 120px;}
+.sm-spacer90 {height: 90px;}
+.sm-spacer60 {height: 60px;}
+.sm-spacer30 {height: 30px;}
+.sm-spacer15 {height: 15px;}
+
+.sm-block150 {display: inline-block; width: 150px;}
+.sm-block120 {display: inline-block; width: 120px;}
+.sm-block90 {display: inline-block; width: 90px;}
+.sm-block60 {display: inline-block; width: 60px;}
+.sm-block30 {display: inline-block; width: 30px;}
+.sm-block15 {display: inline-block; width: 15px;}
+
+.sm-taleft {text-align: left;}
+.sm-tacenter {text-align: center;}
+.sm-taright {text-align: right;}
+.sm-tajustify {text-align: justify;}
+
 /* IMAGES */
 .cke_show_blocks .container {
 	background-image: url(site-assets/images/block-container.png) !important;
@@ -284,4 +304,52 @@
 }
 .cke_show_blocks .col-md-1 {
 	background-image: url(site-assets/images/block-col-1.png) !important;
+}
+
+.sm-spacer150 {
+	background-image: url(site-assets/images/block-spacer-150.png) !important;
+}
+
+.sm-spacer120 {
+	background-image: url(site-assets/images/block-spacer-120.png) !important;
+}
+
+.sm-spacer90 {
+	background-image: url(site-assets/images/block-spacer-90.png) !important;
+}
+
+.sm-spacer60 {
+	background-image: url(site-assets/images/block-spacer-60.png) !important;
+}
+
+.sm-spacer30 {
+	background-image: url(site-assets/images/block-spacer-30.png) !important;
+}
+
+.sm-spacer15 {
+	background-image: url(site-assets/images/block-spacer-15.png) !important;
+}
+
+.sm-block150 {
+	background-image: url(site-assets/images/block-block-150.png) !important;
+}
+
+.sm-block120 {
+	background-image: url(site-assets/images/block-block-120.png) !important;
+}
+
+.sm-block90 {
+	background-image: url(site-assets/images/block-block-90.png) !important;
+}
+
+.sm-block60 {
+	background-image: url(site-assets/images/block-block-60.png) !important;
+}
+
+.sm-block30 {
+	background-image: url(site-assets/images/block-block-30.png) !important;
+}
+
+.sm-block15 {
+	background-image: url(site-assets/images/block-block-15.png) !important;
 }
