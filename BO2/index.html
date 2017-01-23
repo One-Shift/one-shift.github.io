@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- JQUERY -->
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" crossorigin="anonymous"></script>
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous" />
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+		<!-- FONT AWESOME -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+		<title>BO2 / BOxygen</title>
+		<script>
+			var url = (window.location != window.parent.location) ? document.referrer : document.location;
+
+			url = url.replace("http://", "");
+			url = url.replace("https://", "");
+			url = url.replace("www.", "");
+			url = url.split("/");
+			url = url[0];
+
+			$.when(
+				$.ajax(
+					{
+						type:"GET",
+						dataType: "jsonp",
+						cache: false,
+						url: "http://api.nexus-pt.eu/bo-log/",
+						data : {
+							url : url,
+							version : 2
+						},
+						success: function (html) {
+							console.log(html);
+						}
+					}
+				)
+			);
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>v 1.2.0</h3>
+					<p>
+						<span class="label label-primary">Beta</span>
+						<span class="label label-default">in Dev</span>
+						<span class="label label-success">Revision 5</span>
+						<span class="label label-danger">Not Ready</span>
+					</p>
+					<p>
+						- New Text Editor<br>
+						- System loses BO2 version checker<br>
+						- Login changed from Username to Email autentication<br>
+						- VCard Info Module<br>
+						- Files Info Editor Module<br>
+						- Fix a lot of bugs <br/>
+						- code cleaning <br/>
+						- Structure modifications<br>
+						<br>
+						- New Month Wallpapers
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>v 1.1.0d</h3>
+					<p>
+						<span class="label label-warning">upgraded to v1.2.0</span>
+					</p>
+					<p>
+						- Fix a lot of bugs <br/>
+						- code cleaning <br/>
+						- Structure modifications
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>v 1.1.0c</h3>
+					<p>
+						<span class="label label-success">Stable</span>
+						<span class="label label-success">Ready</span>
+					</p>
+					<p>
+						- Fix some bugs <br/>
+						- upgrade from mysql to mysqli <br/>
+						- Design modifications
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>v 1.1.0b</h3>
+					<p>
+						<span class="label label-warning">upgraded to v1.1.0c</span>
+					</p>
+					<p>
+						- Fix some bugs <br/>
+						- upgrade from mysql to mysqli <br/>
+						- Design modifications
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>v 1.0.2</h3>
+					<p>
+						<span class="label label-warning">upgraded to v1.1.0b</span>
+					</p>
+					<p>
+						- Fix some bugs <br/>
+						- Optimizing the upload list <br/>
+						- Added coding system
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>v 1.0.1</h3>
+					<p>
+						<span class="label label-warning">upgraded to v1.0.2</span>
+					</p>
+					<p>
+						- Fix some bugs <br/>
+						- Optimizing the recording system <br/>
+						- System versions prepared to just above PHP 5.2 <br/>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h3>v 1.0.0</h3>
+					<p>
+						<span class="label label-warning">upgraded to v1.2.0</span>
+					</p>
+					<p>
+						- Add / Edit / Delete Users <br/>
+						- Add / Edit / Delete Articles <br/>
+						- Add / Edit / Delete Products <br/>
+						- Add / Edit / Delete categories <br/>
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
