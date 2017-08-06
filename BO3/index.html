@@ -1,1 +1,121 @@
 
+<script>
+	$.when(
+		$.ajax(
+			{
+				type:"GET",
+				dataType: "jsonp",
+				cache: false,
+				url: "https://api.nexus-pt.eu/bo-log/",
+				data : {
+					url : window.location.host,
+					pathname : window.location.pathname,
+					version : 3
+				}
+			}
+		)
+	);
+</script>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<h3>v 3.0.0</h3>
+			<p>
+				<span class="label label-primary">Alpha</span>
+				<span class="label label-success">Revision 1</span>
+				<span class="label label-danger">in Dev / Not Ready to Production</span>
+			</p>
+			<ul class="list-unstyled">
+				<li>Bootstrap Based</li>
+				<li>Sys Login <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></li>
+				<li>Menu
+					<ul>
+						<li>Hidder Controll</li>
+						<li>Modules Loader (Installed and Not Installed) <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></li>
+					</ul>
+				</li>
+				<li>New Month Wallpapers</li>
+			</ul>
+			<div class="spacer30"></div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<h3>Work in progress</h3>
+			<ul class="list-unstyled">
+				<li>
+					<span class="label label-success">module</span> Users
+					<div class="xs-spacer15 sm-spacer15"></div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70"
+					aria-valuemin="0" aria-valuemax="100" style="width:95%">
+							<span class="sr-only">95% Complete</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<span class="label label-success">module</span> Account Edit
+					<div class="xs-spacer15 sm-spacer15"></div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="80"
+					aria-valuemin="0" aria-valuemax="100" style="width:95%">
+							<span class="sr-only">95% Complete</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<span class="label label-success">module</span> Categories
+					<div class="xs-spacer15 sm-spacer15"></div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="20"
+					aria-valuemin="0" aria-valuemax="100" style="width:95%">
+							<span class="sr-only">95% Complete</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<span class="label label-success">module</span> Articles
+					<div class="xs-spacer15 sm-spacer15"></div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="5"
+					aria-valuemin="0" aria-valuemax="100" style="width:100%">
+							<span class="sr-only">100% Complete</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<span class="label label-success">module</span> Products
+					<div class="xs-spacer15 sm-spacer15"></div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70"
+					aria-valuemin="0" aria-valuemax="100" style="width:0%">
+							<span class="sr-only">0% Complete</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<span class="label label-success">module</span> File Manager
+					<div class="xs-spacer15 sm-spacer15"></div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70"
+					aria-valuemin="0" aria-valuemax="100" style="width:100%">
+							<span class="sr-only">100% Complete</span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<span class="label label-danger">plugin</span> Upload
+					<div class="xs-spacer15 sm-spacer15"></div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70"
+					aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							<span class="sr-only">90% Complete</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-sm-4">
+			<a class="twitter-timeline" data-height="500" href="https://twitter.com/one_shift_com">Tweets by one_shift_com</a>
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	</div>
+</div>
