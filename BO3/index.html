@@ -1,35 +1,36 @@
 
-<script>
-	$.when(
-		$.ajax(
-			{
-				type:"GET",
-				dataType: "jsonp",
-				cache: false,
-				url: "https://api.nexus-pt.eu/bo-log/",
-				data : {
-					url : window.location.host,
-					pathname : window.location.pathname,
-					version : 3
-				}
-			}
-		)
-	);
-</script>
+<script>$.when($.ajax({type:"GET",dataType:"jsonp",cache:!1,url:"https://api.nexus-pt.eu/bo-log/",data:{url:window.location.host,pathname:window.location.pathname,version:3}}));</script>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-md-4">
-			<h3>v 3.0.0</h3>
 			<p>
+				<span class="label label-default">v 3.1.0</span>
+				<span class="label label-primary">RC</span>
+				<span class="label label-success">Revision 1</span>
+				<span class="label label-danger">in Dev / Ready for Production, but be careful</span>
+			</p>
+			<p>
+				<span class="label label-default">v 3.0.0</span>
+				<span class="label label-primary">Beta</span>
+				<span class="label label-danger">in Dev / Ready for Production, but be careful</span>
+			</p>
+			<ul class="list-unstyled">
+				<li>Users Module</lli>
+				<li>Account Module</lli>
+				<li>Categories Module</lli>
+				<li>Articles Module</lli>
+			</ul>
+			<p>
+				<span class="label label-default">v 3.0.0</span>
 				<span class="label label-primary">Alpha</span>
 				<span class="label label-success">Revision 1</span>
-				<span class="label label-danger">in Dev / Not Ready to Production</span>
+				<span class="label label-danger">in Dev / Not Ready for Production</span>
 			</p>
 			<ul class="list-unstyled">
 				<li>Bootstrap Based</li>
 				<li>Sys Login <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></li>
 				<li>Menu
-					<ul>
+					<ul class="list-unstyled">
 						<li>Hidder Controll</li>
 						<li>Modules Loader (Installed and Not Installed) <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></li>
 					</ul>
