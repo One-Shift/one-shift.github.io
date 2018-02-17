@@ -2,6 +2,9 @@
 <html lang="{c2r-lg}">
 	<head>
 		{c2r-head}
+		
+		<link rel="stylesheet" type="text/css" href="{c2r-path}/site-assets/css/{c2r-page}.css">
+		<script src="{c2r-path}/site-assets/js/{c2r-page}.js"></script>
 	</head>
 	<body>
 		{c2r-header}
